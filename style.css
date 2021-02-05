@@ -1,11 +1,13 @@
 
 body {
-    background-image: url("pexels-frans-van-heerden-1022692.jpg");
+    background-image: url("pexels-visit-greenland-360912.jpg");
     background-color: #cccccc;
-  
+  background-repeat: no-repeat;
+  background-size: 100%;
   } 
 
   .card {
 opacity: 0.9;
 
   } 
+
