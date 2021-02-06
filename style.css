@@ -1,7 +1,9 @@
 
-
-  .card {
-opacity: 0.9;
-
+body {
+    background-image: url("pexels-frans-van-heerden-1022692.jpg");
+    background-color: #cccccc;
+  background-repeat:repeat-y;
+  background-size: 100%;
   } 
+
 
