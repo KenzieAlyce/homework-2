@@ -1,9 +1,74 @@
 
 body {
-    background-image: url("pexels-frans-van-heerden-1022692.jpg");
+    background-image: url('white-jigsaw-puzzle-pieces-pink.jpg');
     background-color: #cccccc;
   background-repeat:repeat-y;
   background-size: 100%;
   } 
 
+/* The navigation bar */
+nav {
+    overflow: hidden;
+    background-color: darkslategray;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  nav a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  
+
+  /* Bottom navigation bar */
+#contact {
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    background-color: rgb(21, 59, 38);
+    height: 100px
+  }
+  #contact a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  #contact a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #contact h3 {text-align: center;
+color: #f2f2f2;
+  }
+
+  h4 { position:relative;
+
+  }
+
+  img meSmiling.png { float:left;
+
+  }
 
